@@ -1,0 +1,12 @@
+nav{
+    background-color: #5e5e5e;
+}
+
+.nav-item a{
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.dropdown-menu{
+    background-color: #919191;
+}

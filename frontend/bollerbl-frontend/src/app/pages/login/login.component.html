@@ -1,0 +1,32 @@
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+
+        <form (ngSubmit)="login()" class="container-fluid padding">
+            <div class="row tex-tcenter padding">
+                <div class="col-lg-6">
+                    <input type="email" id="login" class="" name="login" [(ngModel)]="user.username"
+                        placeholder="felhasználónév">
+                </div>
+            </div>
+            <div class="row tex-tcenter padding">
+                <div class="col-lg-6">
+                    <input type="password" id="password" class="" name="login" [(ngModel)]="user.password"
+                        placeholder="jelszó">
+                </div>
+            </div>
+            <div class="row tex-tcenter padding">
+                <div class="col-lg-6">
+                    <button type="submit" class="btn btn-primary" value="Bejelentkezés">Bejelentkezés</button></div>
+            </div>
+            <div class="row tex-tcenter padding">
+                <div class="col-lg-6">
+                    <a href="/register" class="btn btn-secondary">Regisztráció</a></div>
+            </div>
+        </form>
+
+        <div id="formFooter">
+            <a class="underlineHover" href="#">Elfelejtette a jelszavát?</a>
+        </div>
+
+    </div>
+</div>
